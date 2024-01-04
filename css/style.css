@@ -164,6 +164,17 @@ nav section ul li .active , nav section ul li a:hover{
    border-radius: .5rem;
 }
 
+#jacob {
+   height: 20rem;
+   background-image: url("../images//visite6.JPG");
+   background-position: center;
+   background-size: cover;
+}
+
+#jacob:hover {
+   transform: scale(1.1);
+}
+
 .certificates .box .certif .image img{
    height: 100%;
    width: 100%;
@@ -171,7 +182,7 @@ nav section ul li .active , nav section ul li a:hover{
 }
 
 .certificates .box .certif:hover .image img{
-   transform: scale(1.2);
+   transform: scale(1.1);
 }
 
 .certificates .box .certif .description{
