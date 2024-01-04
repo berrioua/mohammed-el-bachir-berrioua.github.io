@@ -87,6 +87,9 @@ nav section ul li .active , nav section ul li a:hover{
 .header .myPic{
    height: 200px;
    width: 200px;
+   background-image: url("../images/moha.jpeg");
+   background-size: cover;
+   background-position: center;
    border-radius: 50%;
    border: .5rem solid white;
    display: flex;
@@ -357,6 +360,17 @@ box .projet .image{
    gap: 10rem;
    margin-top: 2rem;
    flex-wrap: wrap;
+}
+
+.about .image {
+   height: 370px;
+   width: 250px;
+   background-image: url("../images/moha2.jpeg");
+   background-size: cover;
+   background-position: center;
+   animation: Move 4s infinite;
+   border: .5rem solid white;
+   border-radius: 1rem;
 }
 
 .about .image img{
